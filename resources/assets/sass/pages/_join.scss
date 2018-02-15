@@ -1,0 +1,23 @@
+#joinPage{
+  .form-group{
+    position:relative;
+    &:before{ 
+      position: absolute;
+      min-width: 45px;
+      text-align: center;
+      height: 45px;
+      line-height: 3.3;
+      font-family: "FontAwesome";
+      right: -5px;
+      top: -4px;
+    }
+    &.card-number{
+      &:before{ 
+        content: '';
+      }
+    }
+  }
+  .btn{
+    font-weight: bold;
+  }
+}

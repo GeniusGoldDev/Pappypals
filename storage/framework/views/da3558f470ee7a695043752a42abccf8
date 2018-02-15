@@ -1,0 +1,15 @@
+<?php $__env->startSection('title', 'user'); ?>
+<?php $__env->startSection('id', 'User'); ?>
+<?php $__env->startSection('content'); ?>
+<?php echo $__env->make('partial.header_logo', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<div class="container-fluid" style="margin: 120px 0 0 0;">
+ <div class="container currnt-users">
+    <h2>Error 404... Oops! Page not found</h2>
+  </div> 
+</div>
+<?php $__env->stopSection(); ?>
+
+
+
+<?php echo $__env->make('share.default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

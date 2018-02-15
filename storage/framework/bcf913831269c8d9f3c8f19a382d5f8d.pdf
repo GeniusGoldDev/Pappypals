@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Invoice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background: #fff;
+        background-image: none;
+        font-size: 16px;
+      }
+      address{
+        margin-top:15px;
+      }
+      h2 {
+        font-size:16px;
+        color:#cccccc;
+      }
+      .container {
+        padding-top:30px;
+      }
+      .invoice-head td {
+        padding: 0 8px;
+      }
+      .invoice-body{
+        background-color:transparent;
+      }
+      .logo {
+        padding-bottom: 10px;
+      }
+      .table th {
+        vertical-align: bottom;
+        font-weight: bold;
+        padding: 8px;
+        line-height: 20px;
+        text-align: left;
+      }
+      .table td {
+        padding: 8px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: 1px solid #dddddd;
+      }
+      .well {
+        margin-top: 15px;
+      }
+
+      .auto-style1 {
+        width: 671px;
+      }
+      .small {
+        font-size: 13px;
+      }
+      #table {
+        width: 470px;
+        border-top: 4px solid #e3e7e7;
+      }
+
+      #table p {
+        clear: both;
+        width: 100%;
+        margin: 0;
+      }
+
+      #table span {
+        float: left;
+        padding: 0 10px;
+        border-left: 1px solid #e3e7e7;
+        border-bottom: 1px solid #e3e7e7;
+      }
+
+      #table span.col1 {
+        width: 110px;
+      }
+
+      #table span.col2 {
+        width: 186px;
+      }
+
+      #table span.col3 {
+        width: 110px;
+        border-right: 1px solid #e3e7e7;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <a class="navbar-brand logo" href="/">
+        <img src='/home/vagrant/www/fernado/pappypals/public\public\img\Logo.jpg' alt="Pappy pals" style="height: 248px; width: 412px">
+      </a>
+<br>
+      <!-- Organization Name / Date -->
+
+      <strong>To:</strong> a@yahoo.se
+      <br>
+      <strong>Date:</strong> Oct 6, 2017
+
+
+      <tr valign="top">
+        <!-- Organization Details -->
+        <td style="font-size:32px;" class="auto-style1">
+          Pappy Pals<br>
+                                                </td>
+  
+          <!-- Invoice Info -->
+          <p>
+            <strong>Product:</strong> Pappy Pals Subscription<br>
+            <strong>Invoice Number:</strong> in_1BA2J3BjVL0XtgRtM0cTaQQL<br>
+          </p>
+
+          <!-- Extra / VAT Information -->
+          
+          <br><br>
+
+          <!-- Invoice Table -->
+          <div id="table">
+            <p><span class="col1">Description</span><span class="col2">Date</span><span class="col3">Amount</span></p>
+
+            <!-- Display The Invoice Items -->
+
+            
+            <!-- Display The Subscriptions -->
+                        <p><span class="col1 small">Subscription (1)</span><span class="col2 small">Oct 6, 2017 - Nov 5, 2017</span><span class="col3 small">$0.00</span></p>
+
+            
+            <!-- Display The Discount -->
+
+            <br>
+            <!-- Display The Final Total -->
+            <p><span class="col1">&nbsp;</span><span class="col2">&nbsp;</span><span class="col3"><strong>Total</strong>
+              <strong>$0.00</strong></span></p>
+
+
+          </div>
+          
+          <!-- Existing Balance -->
+              </div>
+      </body>
+    </html>

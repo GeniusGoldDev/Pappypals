@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9290.063 92.064 28.873 31.872">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #f00268;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 1.872px;
+      }
+
+      .cls-2 {
+        stroke-width: 1.253px;
+      }
+    </style>
+  </defs>
+  <g id="icon_articles" transform="translate(8896)">
+    <rect id="Rectangle_3027" data-name="Rectangle 3027" class="cls-1" width="27" height="30" transform="translate(395 93)"/>
+    <rect id="Rectangle_3028" data-name="Rectangle 3028" class="cls-2" width="9.1" height="9.1" transform="translate(397.9 96.4)"/>
+    <line id="Line_293" data-name="Line 293" class="cls-2" x2="9.7" transform="translate(409.4 97)"/>
+    <line id="Line_294" data-name="Line 294" class="cls-2" x2="9.7" transform="translate(409.4 100.8)"/>
+    <line id="Line_295" data-name="Line 295" class="cls-2" x2="9.7" transform="translate(409.4 104.6)"/>
+    <line id="Line_296" data-name="Line 296" class="cls-2" x2="21.2" transform="translate(397.9 108.4)"/>
+    <line id="Line_297" data-name="Line 297" class="cls-2" x2="21.2" transform="translate(397.9 112.1)"/>
+    <line id="Line_298" data-name="Line 298" class="cls-2" x2="21.2" transform="translate(397.9 115.9)"/>
+    <line id="Line_299" data-name="Line 299" class="cls-2" x2="21.2" transform="translate(397.9 119.7)"/>
+  </g>
+</svg>

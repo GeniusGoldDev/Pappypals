@@ -1,0 +1,44 @@
+#SigninPage{
+  form{
+    .form-group{
+      position: relative;
+      font-weight: 200;
+      &:before{ 
+        position: absolute;
+        min-width: 45px;
+        text-align: center;
+        height: 45px;
+        line-height: 3.3;
+        font-family: "FontAwesome";
+        border-right: 1px solid #ccc;
+      }
+      &.email{
+        &:before{ 
+          content: '';
+          color: #cccccc;
+        }
+      }
+      &.password{
+        &:before{ 
+          content: '\f023';
+          color: #cccccc;
+        }
+      }
+      input[type="text"], input[type="password"]{
+        padding-left: 56px;
+      }
+    }
+    .btn{
+      font-weight: bold;
+    }
+
+    .panel-heading{
+      font-weight: 300;
+      a{
+        span{
+          color: #f00268;
+        }
+      }
+    }
+  }
+}

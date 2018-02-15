@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9056.118 91.119 29.663 31.663">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f00268;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.763px;
+      }
+
+      .cls-2 {
+        fill: #f00268;
+      }
+    </style>
+  </defs>
+  <g id="icon_activities" transform="translate(8658)">
+    <path id="Path_1258" data-name="Path 1258" class="cls-1" d="M23.3,14.7a8.285,8.285,0,0,1-4.6,7.7,1.693,1.693,0,0,0-.9,1.4v4.8a.576.576,0,0,1-.6.6h0a.576.576,0,0,0-.6.6v.4a.576.576,0,0,1-.6.6H13.8a.576.576,0,0,1-.6-.6v-.4a.576.576,0,0,0-.6-.6h0a.576.576,0,0,1-.6-.6V23.8a1.693,1.693,0,0,0-.9-1.4,8.474,8.474,0,0,1,4.3-16A8.409,8.409,0,0,1,23.3,14.7Z" transform="translate(398.1 91.1)"/>
+    <line id="Line_283" data-name="Line 283" class="cls-1" x2="6.1" transform="translate(409.9 116.5)"/>
+    <line id="Line_284" data-name="Line 284" class="cls-1" x2="6.1" transform="translate(409.9 117.7)"/>
+    <line id="Line_285" data-name="Line 285" class="cls-1" x2="6.1" transform="translate(409.9 118.9)"/>
+    <line id="Line_286" data-name="Line 286" class="cls-1" y1="2.9" transform="translate(412.9 92)"/>
+    <line id="Line_287" data-name="Line 287" class="cls-1" x1="2" y1="2" transform="translate(403.1 96.1)"/>
+    <line id="Line_288" data-name="Line 288" class="cls-1" x1="2.9" transform="translate(399 105.9)"/>
+    <line id="Line_289" data-name="Line 289" class="cls-1" x1="2" y2="2" transform="translate(403.1 113.8)"/>
+    <line id="Line_290" data-name="Line 290" class="cls-1" x2="2" y2="2" transform="translate(420.8 113.8)"/>
+    <line id="Line_291" data-name="Line 291" class="cls-1" x2="2.9" transform="translate(424 105.9)"/>
+    <line id="Line_292" data-name="Line 292" class="cls-1" y1="2" x2="2" transform="translate(420.8 96.1)"/>
+    <g id="Group_2202" data-name="Group 2202" transform="translate(398.1 91.1)">
+      <path id="Path_1259" data-name="Path 1259" class="cls-2" d="M20.3,13.6a3.194,3.194,0,0,1,.3,1.9,4.136,4.136,0,0,1-.5,1.9A4.569,4.569,0,0,1,19,19a4.188,4.188,0,0,1-1.6,1.1c.6-1.1,1.2-2.1,1.7-3.2A14.174,14.174,0,0,0,20.3,13.6Z"/>
+    </g>
+  </g>
+</svg>

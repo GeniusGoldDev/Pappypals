@@ -1,0 +1,97 @@
+body#activitesPage{
+  .btn-transparent {
+    padding:6px 60px; 
+    border: none; 
+    border-radius: 30px; 
+    //background-color: rgba(255,255,255, .3);
+    margin: 2px;
+    outline: none;
+    @extend .btn-bases;
+  }
+  .jssocials-share a{
+  background-color: #6ABEEC !important;
+  }
+  .jssocials-share-link {
+      padding: 1.5em 0.9em!important;
+      line-height: 0px!important;
+      line-height: 20px!important;
+      border-radius: 6px!important;
+      }
+      .send {
+      background-color:#f00267;
+      width: 100%;
+      color:#fff;
+      text-align:center;
+      margin: 15px 0px;
+      padding:10px;
+      }
+      .center {text-align: center;}
+      .modal-header {
+          border-bottom: none!important;
+          border:none!important;
+      }
+
+   .modal-body {padding: 15px 60px;}
+  .modal-header {
+      border-bottom: none !important;
+      border: none !important;
+  }
+  .filter{
+        border-bottom: 1px solid #ddd;
+        padding: 0;
+        margin: 0 20px 16px;
+    }
+  .nav.categori{
+    position: relative;
+    display: block;
+    color: #000;
+    font-weight: bold;
+    
+    margin: 0px 0;
+    span{
+      font-size: 22px;
+      margin: -8px 11px;
+      display: inline-block;
+      color: #67b6e0;
+    }
+    &:hover{
+       .categori-menu{
+        display: block;
+       }
+    }
+    .categori-menu{
+      margin-top: 0;
+      border-radius: 6px;
+      display: none;
+      position: absolute;
+      left: 0;
+      background-color: #fff;
+      z-index: 33;
+      padding:0;
+      width: 120%;
+      li{
+          padding: 6%;
+          list-style-type: none;
+          background: #70bce5;
+          color: #fff;
+          font-weight: bold;
+          text-align: center;
+          border-bottom: 1px solid #ddd;
+          cursor: pointer;
+      }
+    }
+  }
+
+  button.close{
+    color: #000;
+    border: none !important;
+    margin-right: -80px;
+    outline: none;
+    &:hover{
+      border:0;
+      color: #ddd;
+    }
+  }
+}
+
+

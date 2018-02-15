@@ -1,0 +1,38 @@
+#SignupPage{
+  .topTitle{
+    ul{
+        padding: 0;
+        margin: 0;
+      li{
+        list-style-type: none;
+        span{
+          color: #f00267;
+        }
+      }
+    }
+  }  
+  .header-banner{
+    padding:2% 0;
+    background: #e9eff0;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    -o-box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px #ccc;    
+  }
+
+  .form-group{
+    font-weight: 200;
+  }
+  .btn{
+    font-weight: bold;
+  }
+
+  .panel-heading{
+    font-weight: 300;
+    a{
+      span{
+        color: #f00268;
+      }
+    }
+  }
+}

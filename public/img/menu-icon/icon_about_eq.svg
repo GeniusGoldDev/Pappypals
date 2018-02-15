@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9703.575 93.314 36.35 29.421">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f00268;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.494px;
+      }
+
+      .cls-2 {
+        fill: #f00268;
+      }
+    </style>
+  </defs>
+  <g id="icon_about_eq" transform="translate(9309)">
+    <path id="Path_1254" data-name="Path 1254" class="cls-1" d="M26.81.7c-7.732,0-8.619,9-8.619,9S17.177.7,9.572.7C4.883.7.7,4.5.7,11.22.7,18.445,9.953,24.782,15.023,27.7a6.3,6.3,0,0,0,6.337,0c4.943-2.915,14.2-9.253,14.2-16.477C35.429,4.5,31.246.7,26.81.7Z" transform="translate(394.622 93.361)"/>
+    <g id="Group_2197" data-name="Group 2197" transform="translate(424.221 99.004)">
+      <path id="Path_1255" data-name="Path 1255" class="cls-2" d="M23.5,4.6a6.62,6.62,0,0,1,1.774,2.408,8.521,8.521,0,0,1,.507,3.042,8.521,8.521,0,0,1-.507,3.042A5.466,5.466,0,0,1,23.627,15.5a10.07,10.07,0,0,0,.76-2.788,18.985,18.985,0,0,0,.253-2.788A17.5,17.5,0,0,0,23.5,4.6Z" transform="translate(-23.5 -4.6)"/>
+    </g>
+  </g>
+</svg>

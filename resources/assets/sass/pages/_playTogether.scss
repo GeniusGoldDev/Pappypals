@@ -1,0 +1,15 @@
+#playTogetherPage {
+	#feedBack-area{width:100%; height: 160px;}
+    .send {
+	    background-color:#f00267;
+	    width: 100%;
+	    color:#fff;
+	    text-align:center;
+	    margin: 15px 0px;
+	    padding:10px;
+	 	@extend .btn-bases;
+    }
+
+ 	.modal-body {padding: 15px 60px;}
+ 	.maxH{max-height:227px; }
+}

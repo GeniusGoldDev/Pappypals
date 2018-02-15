@@ -1,0 +1,22 @@
+.btn-bases{
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: #fff;
+  transition: 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+
+  &.btn-pink{
+    background: $btn-pink;
+    border: 1px solid $btn-pink;
+  }
+
+  &:hover{
+    background: #fff;
+    color: $btn-pink;
+  }
+}
+
+.btnAabsolute{
+  position: absolute;
+}   
