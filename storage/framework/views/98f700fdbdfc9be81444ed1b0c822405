@@ -1,0 +1,58 @@
+<header class="header_only_logo">
+    <nav class="navbar navbar-inverse no_logo_header">
+      <div class="container">
+     
+        <div class="navbar-header">
+          <?php if(Auth::check()): ?>
+            <ul class="nav navbar-nav navbar-right" style="margin-top:21px;"> 
+              <li>
+                <a class="short_cuts"><?php echo e(Auth::user()->getNameOremail()); ?> <span class="fa fa-sort-desc"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+                  <li><a class="login" href="<?php echo e(url('/settings')); ?>"><?php echo e(Lang::get('app.my_account')); ?></a></li>
+                  <li><a href="<?php echo e(url('/faq')); ?>"><?php echo e(Lang::get('app.faq')); ?></a></li>
+                  <li><a href="<?php echo e(url('/contact')); ?>"><?php echo e(Lang::get('app.contact')); ?></a></li>
+                  <?php if(Auth::user()->is_admin()): ?>
+                    <li><a class="login" href="#">Admin Panel</a></li>
+                    <li><a class="login" href="<?php echo e(url('/Activity')); ?>">Activity</a></li>
+                  <?php endif; ?>
+                  <li role="separator" class="divider"></li>
+                  <li><a class="login" href="<?php echo e(url('/signout')); ?>"><?php echo e(Lang::get('app.logout')); ?></a></li>
+                </ul>
+              </li>
+            </ul> 
+            <a class="logo" >
+                <img src="<?php echo e(URL::asset('img/PeppyPalsBannerSlogan.svg')); ?>" alt="/">
+            </a>
+            <a class="shortcuts" href="javascript:window.history.back();"><span class="fa fa-arrow-left" aria-hidden="true"></span> <?php echo e(Lang::get('app.back')); ?></a>
+            <!-- Glömt lösen / sigin -->
+          <?php else: ?>
+            <a class="logo" href="/subusers">
+                <img src="<?php echo e(URL::asset('img/PeppyPalsBannerSlogan.svg')); ?>" alt="/">
+            </a>
+
+            <?php if(request()->is('ForgotPassword')): ?>
+            <a class="shortcuts" href="<?php echo e(url('/signin')); ?>"><span class="fa fa-arrow-left" aria-hidden="true"></span> <?php echo e(Lang::get('app.back')); ?></a>
+             <?php else: ?>
+            <a class="shortcuts" href="http://peppypals.com"><span class="fa fa-arrow-left" aria-hidden="true"></span><?php echo e(Lang::get('app.back')); ?> </a>
+           <?php endif; ?>
+           <!-- Glömt lösen / sigin -->
+          <?php endif; ?>
+        </div>
+        <form action="<?php echo e(URL::route('language-chooser')); ?>" method="post">
+
+        <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>"/>
+        <div style="float:right;">
+          <select name="locale" class="selectpicker" data-width="fit">
+          <option value="sv" data-content='<span class="flag-icon flag-icon-se"></span> Svenska'>Sv</option>
+          <option value="en"<?php echo e(Lang::locale() === 'en' ? ' selected' : ''); ?> data-content='<span class="flag-icon flag-icon-us"></span> English'>En</option>
+          </select>
+          <input type="submit" value="Choose">
+        </div>
+        </form>
+      
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+</header>
+<?php echo $__env->make('partial.alert', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

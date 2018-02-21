@@ -119,6 +119,7 @@ class UserController extends ApiController
             'first_name' => 'required|max:255',
             'last_name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
+            'country' => 'required|max:255',
             'password' => 'required|min:6|confirmed',
             'password_confirmation' => 'required|min:3'
         );
@@ -131,6 +132,7 @@ class UserController extends ApiController
                 'first_name' => $request['first_name'],
                 'last_name' => $request['last_name'],
                 'email' => $request['email'],
+                'country' => $request['country'],
                 'password' => \Hash::make($request['password']),
             ]);
             return $this->_registerUser($request['email'], $request['password']);
@@ -179,6 +181,29 @@ class UserController extends ApiController
             
         }
         else{
+            return $this->respondWithError("User does not exist");
+        }
+    }
+
+    public function getUserData(Request $request)
+    {
+        $user = User::where('id', $request['uid'])->first();
+        if($user){
+            $api_token = $user->api_token;
+            if ($api_token == $request['api_token']) {
+                $purchases = Purchase::where('uid', $request['uid'])->get();
+                return $this->respond([
+                    'status' => 'success',
+                    'status_code' => $this->getStatusCode(),
+                    'message' => 'Successful!',
+                    'data' => $this->userTransformer->getUserData($user, $purchases)
+                ]);
+            }
+            else {
+                return $this->respondWithError("User was not authorized");
+            }
+        }
+        else {
             return $this->respondWithError("User does not exist");
         }
     }

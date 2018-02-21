@@ -223,5 +223,6 @@ Route::group(['middleware' => 'cors', 'prefix' => '/api/v1'], function () {
     Route::post('/login', 'Api\UserController@authenticate');
     Route::post('/register', 'Api\UserController@register');
     Route::post('/update', 'Api\UserController@update');
+    Route::post('/getUserData', 'Api\UserController@getUserData');
     Route::get('/logout/{api_token}', 'Api\UserController@logout');
 });

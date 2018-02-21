@@ -31,4 +31,11 @@ class UserTransformer extends Transformer{
             'status' => $user->status,
         ];
     }
+
+    public function getUserData($user, $purchases){
+        return [
+            'user' => $user,
+            'purchases' => $purchases
+        ];
+    }
 }
